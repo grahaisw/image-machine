@@ -35,7 +35,7 @@ public class MachineDetailActivity extends AppCompatActivity implements View.OnC
         checkData();
     }
 
-    private void init(){
+    private void init() {
         db = new DatabaseHelper(this);
         idLayout = findViewById(R.id.id_layout);
         mtLayout = findViewById(R.id.mt_layout);
