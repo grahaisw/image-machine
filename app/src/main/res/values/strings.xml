@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Image Machine</string>
+    <string name="machine_data">Machine Data</string>
+    <string name="code_reader">Code Reader</string>
+    <string name="add_machine_data">Add Machine Data</string>
+    <string name="no_data">No Data</string>
+    <string name="sort_data">Sort Data</string>
+    <string name="machine_thumbnail">Machine Thumbnail</string>
+    <string name="submit">Submit</string>
+    <string name="insert_machine_name">Insert Machine Name</string>
+    <string name="insert_machine_type">Insert Machine Type</string>
+    <string name="insert_machine_code">Insert Machine Code</string>
+    <string name="machine_id_title">Machine ID</string>
+    <string name="machine_name_title">Machine Name</string>
+    <string name="machine_type_title">Machine Type</string>
+    <string name="machine_code_title">Machine Code</string>
+    <string name="name">name</string>
+    <string name="type">type</string>
+    <string name="last_maintenance">Last Maintenance</string>
+    <string name="edit">edit</string>
+    <string name="delete">delete</string>
+</resources>

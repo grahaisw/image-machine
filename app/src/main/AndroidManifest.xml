@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="id.co.grahaisw.imagemachine">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ImageMachine"
+        tools:ignore="AllowBackup">
+
+        <activity
+            android:name="id.co.grahaisw.imagemachine.MainActivity"
+            android:noHistory="true"
+            tools:ignore="IntentFilterExportedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MachineDataActivity"
+            android:noHistory="true"/>
+
+        <activity
+            android:name=".MachineDetailActivity"
+            android:noHistory="true"/>
+
+        <activity
+            android:name=".CodeReaderActivity"
+            android:noHistory="true"/>
+
+    </application>
+
+</manifest>
