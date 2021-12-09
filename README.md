@@ -1,2 +1,2 @@
-# image-machine
- Android apps for grouping image from your phone galleries.
+# image-machine 
+Android apps for grouping image from your phone galleries.

@@ -1,0 +1,114 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp"
+    android:padding="15dp"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    android:background="#e0e0e0"
+    android:baselineAligned="false">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#222222"
+                android:text="Name : "
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#222222"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textSize="16sp"
+                android:textColor="#222222"
+                android:text="Type : "
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textSize="16sp"
+                android:textColor="#222222"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:layout_gravity="center_vertical"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/edit"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="20dp"
+            android:background="#FFC107">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_edit"
+                android:contentDescription="@string/edit" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/delete"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="#F44336">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_delete"
+                android:contentDescription="@string/delete" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
