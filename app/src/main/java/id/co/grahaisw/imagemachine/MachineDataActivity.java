@@ -92,6 +92,7 @@ public class MachineDataActivity extends AppCompatActivity implements View.OnCli
             Intent intent = new Intent(this, MachineDetailActivity.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             intent.putExtra("id", 0);
+            intent.putExtra("menu", "machine_data");
             startActivity(intent);
             finish();
         }else if(view.getId() == R.id.sort_fab){

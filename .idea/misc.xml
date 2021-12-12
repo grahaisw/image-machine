@@ -3,14 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/grahaisw91/Documents/AndroidProjects/image-machine/app/src/main/res/drawable-v24/ic_calendar.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/grahaisw91/Documents/AndroidProjects/image-machine/app/src/main/res/drawable/ic_calendar.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/grahaisw91/Documents/AndroidProjects/image-machine/app/src/main/res/drawable/ic_clear.xml" value="0.11666666666666667" />
         <entry key="..\:/Users/grahaisw91/Documents/AndroidProjects/image-machine/app/src/main/res/drawable/ic_delete.xml" value="0.24114583333333334" />
         <entry key="..\:/Users/grahaisw91/Documents/AndroidProjects/image-machine/app/src/main/res/drawable/ic_edit.xml" value="0.24114583333333334" />
         <entry key="..\:/Users/grahaisw91/Documents/AndroidProjects/image-machine/app/src/main/res/drawable/ic_sort.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/grahaisw91/Documents/AndroidProjects/image-machine/app/src/main/res/layout/activity_image_full_screen.xml" value="0.225" />
         <entry key="..\:/Users/grahaisw91/Documents/AndroidProjects/image-machine/app/src/main/res/layout/activity_machine_data.xml" value="0.12" />
         <entry key="..\:/Users/grahaisw91/Documents/AndroidProjects/image-machine/app/src/main/res/layout/activity_machine_detail.xml" value="0.225" />
         <entry key="..\:/Users/grahaisw91/Documents/AndroidProjects/image-machine/app/src/main/res/layout/activity_main.xml" value="0.225" />
         <entry key="..\:/Users/grahaisw91/Documents/AndroidProjects/image-machine/app/src/main/res/layout/machine_list.xml" value="0.33" />
-        <entry key="..\:/Users/grahaisw91/Documents/AndroidProjects/image-machine/app/src/main/res/layout/machine_thumbnail.xml" value="0.225" />
+        <entry key="..\:/Users/grahaisw91/Documents/AndroidProjects/image-machine/app/src/main/res/layout/machine_thumbnail.xml" value="0.22" />
       </map>
     </option>
   </component>

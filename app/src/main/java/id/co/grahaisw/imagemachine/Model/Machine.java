@@ -5,10 +5,10 @@ public class Machine {
     private int id;
     private String name;
     private String type;
-    private String code;
+    private int code;
     private String last_mt;
 
-    public Machine(int id, String name, String type, String code, String last_mt) {
+    public Machine(int id, String name, String type, int code, String last_mt) {
         this.id = id;
         this.name = name;
         this.type = type;
@@ -43,11 +43,11 @@ public class Machine {
         this.type = type;
     }
 
-    public String getCode() {
+    public int getCode() {
         return code;
     }
 
-    public void setCode(String code) {
+    public void setCode(int code) {
         this.code = code;
     }
 

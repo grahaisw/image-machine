@@ -72,6 +72,7 @@ public class MachineAdapter extends RecyclerView.Adapter<MachineAdapter.MachineV
             if(view.getId() == R.id.edit){
                 Intent intent = new Intent(context, MachineDetailActivity.class);
                 intent.putExtra("id", machine.getId());
+                intent.putExtra("menu", "machine_data");
                 context.startActivity(intent);
             }else{
                 DatabaseHelper db = new DatabaseHelper(context);

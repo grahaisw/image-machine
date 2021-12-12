@@ -4,6 +4,7 @@
     package="id.co.grahaisw.imagemachine">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
 
     <application
         android:allowBackup="true"
@@ -28,13 +29,13 @@
             android:name=".MachineDataActivity"
             android:noHistory="true"/>
 
-        <activity
-            android:name=".MachineDetailActivity"
-            android:noHistory="true"/>
+        <activity android:name=".MachineDetailActivity"/>
 
         <activity
-            android:name=".CodeReaderActivity"
+            android:name=".ImageFullScreenActivity"
             android:noHistory="true"/>
+
+        <activity android:name=".CodeReaderActivity"/>
 
     </application>
 

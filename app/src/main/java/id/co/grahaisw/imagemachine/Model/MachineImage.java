@@ -1,17 +1,18 @@
 package id.co.grahaisw.imagemachine.Model;
 
-import android.graphics.Bitmap;
-
-public class ImageMachine {
+public class MachineImage {
 
     private int id;
     private int machine_id;
-    private Bitmap blob;
+    private String uri;
 
-    ImageMachine(int id, int machine_id, Bitmap blob) {
+    public MachineImage(int id, int machine_id, String uri) {
         this.id = id;
         this.machine_id = machine_id;
-        this.blob = blob;
+        this.uri = uri;
+    }
+
+    public MachineImage() {
     }
 
     public int getId() {
@@ -30,11 +31,11 @@ public class ImageMachine {
         this.machine_id = machine_id;
     }
 
-    public Bitmap getBlob() {
-        return blob;
+    public String getUri() {
+        return uri;
     }
 
-    public void setBlob(Bitmap blob) {
-        this.blob = blob;
+    public void setUri(String uri) {
+        this.uri = uri;
     }
 }
