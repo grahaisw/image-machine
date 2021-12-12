@@ -5,7 +5,7 @@ This apps only has 2 entity “Machine” & “Machine Image” where the relati
 
 ![image (5)](https://user-images.githubusercontent.com/17241973/145720408-2f9b908b-d0fe-4cba-b495-5fc0edd1ab1c.png)
 
-On my assumptions, entity Machine has two unique attribute, the first one is Machine ID as primary key and the other is Machine Code for QR Code. Since this QR Code will be used for QR Code Reader to identify machine, so it’s must be unique and bind to the machine.    
+Entity Machine has two unique attribute, the first one is Machine ID as primary key and the other is Machine Code for QR Code. Since this QR Code will be used for QR Code Reader to identify machine, so it’s must be unique and bind to the machine.    
 
 ![database_scheme](https://user-images.githubusercontent.com/17241973/145720448-fe6140af-d2c7-47c6-80fa-414c75f532fb.png)
 
